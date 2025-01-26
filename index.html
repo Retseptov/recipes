@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="icon.jpg" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Рецепты</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Список рецептов -->
+  <main>
+    <section class="recipes">
+      <div class="container">
+        <h2>Популярные рецепты</h2>
+        <div class="recipe-grid">
+          <div class="recipe-card">
+            <img src="Pasta.jpg" alt="Recipe">
+            <h3>Паста с томатным соусом</h3>
+            <p>Нежная паста с насыщенным томатным соусом.</p>
+            <!-- Открытие модального окна -->
+            <label for="modal1" class="btn">Посмотреть рецепт</label>
+          </div>
+          <div class="recipe-card">
+            <img src="kuritsa.jpg" alt="Recipe">
+            <h3>Курица Терияки</h3>
+            <p>Японское блюдо с нежным соусом терияки.</p>
+            <!-- Открытие модального окна -->
+            <label for="modal2" class="btn">Посмотреть рецепт</label>
+          </div>
+          <div class="recipe-card">
+            <img src="cezar.jpg" alt="Recipe">
+            <h3>Цезарь салат</h3>
+            <p>Свежий салат с курицей и пармезаном.</p>
+            <!-- Открытие модального окна -->
+            <label for="modal3" class="btn">Посмотреть рецепт</label>
+          </div>
+          <div class="recipe-card">
+            <img src="borsh.jpg" alt="Recipe">
+            <h3>Борщ</h3>
+            <p>Классический свекольный суп с мясом.</p>
+            <!-- Открытие модального окна -->
+            <label for="modal4" class="btn">Посмотреть рецепт</label>
+          </div>
+          <div class="recipe-card">
+            <img src="resize.jpg" alt="Recipe">
+            <h3>Торт Наполеон</h3>
+            <p>Классический торт со слоеным тестом и кремом.</p>
+            <!-- Открытие модального окна -->
+            <label for="modal5" class="btn">Посмотреть рецепт</label>
+          </div>
+          <div class="recipe-card">
+            <img src="frukt.jpg" alt="Recipe">
+            <h3>Фруктовый салат</h3>
+            <p>Свежий салат из сезонных фруктов.</p>
+            <!-- Открытие модального окна -->
+            <label for="modal6" class="btn">Посмотреть рецепт</label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Модальное окно для Пасты -->
+  <input type="checkbox" id="modal1" class="modal-toggle">
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal1" class="close">&times;</label>
+      <h3>Паста с томатным соусом</h3>
+      <ol>
+        <li>Сварите пасту в подсоленной воде до состояния аль денте.</li>
+        <li>На сковороде обжарьте чеснок в оливковом масле.</li>
+        <li>Добавьте томатный соус и специи, тушите 10 минут.</li>
+        <li>Смешайте пасту с соусом, посыпьте тертым сыром и свежей зеленью.</li>
+      </ol>
+      <!-- Кнопка закрытия -->
+      <label for="modal1" class="btn-close">Закрыть</label>
+    </div>
+  </div>
+
+  <!-- Модальное окно для Курицы Терияки -->
+  <input type="checkbox" id="modal2" class="modal-toggle">
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal2" class="close">&times;</label>
+      <h3>Курица Терияки</h3>
+      <ol>
+        <li>Замаринуйте курицу в соусе терияки на 30 минут.</li>
+        <li>Обжарьте курицу на сильном огне до готовности.</li>
+        <li>Подавайте с рисом и овощами.</li>
+      </ol>
+      <!-- Кнопка закрытия -->
+      <label for="modal2" class="btn-close">Закрыть</label>
+    </div>
+  </div>
+
+  <!-- Модальное окно для Цезарь салата -->
+  <input type="checkbox" id="modal3" class="modal-toggle">
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal3" class="close">&times;</label>
+      <h3>Цезарь салат</h3>
+      <ol>
+        <li>Приготовьте соус: смешайте желток, горчицу, лимонный сок и оливковое масло.</li>
+        <li>Добавьте нарезанные листья романо и гренки.</li>
+        <li>Посыпьте натертым пармезаном и подавайте.</li>
+      </ol>
+      <!-- Кнопка закрытия -->
+      <label for="modal3" class="btn-close">Закрыть</label>
+    </div>
+  </div>
+
+  <!-- Модальное окно для Борща -->
+  <input type="checkbox" id="modal4" class="modal-toggle">
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal4" class="close">&times;</label>
+      <h3>Борщ</h3>
+      <ol>
+        <li>Сварите свеклу до мягкости, затем нарежьте и обжарьте с луком.</li>
+        <li>Добавьте нарезанную капусту и картошку в бульон.</li>
+        <li>Добавьте свеклу, тушите до готовности, посыпьте укропом перед подачей.</li>
+      </ol>
+      <!-- Кнопка закрытия -->
+      <label for="modal4" class="btn-close">Закрыть</label>
+    </div>
+  </div>
+
+  <!-- Модальное окно для Торта Наполеон -->
+  <input type="checkbox" id="modal5" class="modal-toggle">
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal5" class="close">&times;</label>
+      <h3>Торт Наполеон</h3>
+      <ol>
+        <li>Приготовьте слоеное тесто и выпекайте коржи.</li>
+        <li>Для крема взбейте сливки, добавьте сгущенное молоко и ваниль.</li>
+        <li>Соберите торт, чередуя коржи и крем, дайте настояться перед подачей.</li>
+      </ol>
+      <!-- Кнопка закрытия -->
+      <label for="modal5" class="btn-close">Закрыть</label>
+    </div>
+  </div>
+
+  <!-- Модальное окно для Фруктового салата -->
+  <input type="checkbox" id="modal6" class="modal-toggle">
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal6" class="close">&times;</label>
+      <h3>Фруктовый салат</h3>
+      <ol>
+        <li>Нарежьте фрукты (яблоки, бананы, груши, ягоды).</li>
+        <li>Добавьте йогурт и мед по вкусу.</li>
+        <li>Тщательно перемешайте и подавайте охлажденным.</li>
+      </ol>
+      <!-- Кнопка закрытия -->
+      <label for="modal6" class="btn-close">Закрыть</label>
+    </div>
+  </div>
+</body>
+</html>
+<footer>
+    <div class="footer-content">
+	</div>
+        <p>&copy; 2025 Коркин Михаил</p>
+        <ul class="footer-links">
+            <li>Контакты:+79016636788</li>
+        <div class="social-media">
+            <a href="https://vk.com/bggg000gggd" target="_blank">ВКонтакте</a>
+        </div>
+        <p class="address">Адрес:Усолье-Сибирское</p>
+    </div>
+</footer>
